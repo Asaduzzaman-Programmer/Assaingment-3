@@ -1,17 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="cupcake">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        .font {
+            font-family: Manrope;
+        }
+    </style>
 </head>
 
 <body>
+    <div class=" sm:mx-auto container lg:mx-auto">
+        <div class="navbar">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                </div>
+                <h1 class=" text-2xl lg:text-5xl font-extrabold">Hockey <span class="text-red-500">'</span>s</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-base">
+                    <li><a class="text-red-600">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-secondary bg-[#FF4240] font">Get Ticket</a>
+            </div>
+        </div>
+        <div class="">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="img/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="  container lg:absolute">
+            <div class=" rounded-lg  lg:w-96 h-22 bg-[#131318] p-5 text-[#FFF] mt-5 lg:ml-[996px] lg:-mt-[158px]">
+                <h3 class="text-2xl">Meet all the heroes from the field</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis </p>
+            </div>
+        </div>
+        <div class="mt-6 lg:mt-24">
+            <h1 class="text-4xl text-center ">Professional Hockeys Club</h1><br>
+            <p class="text-xl text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+    </div>
+    <div class="container mx-auto w-full mt-5 lg:mt-20 invisible lg:visible relative ">
+        <div class=" flex-row  lg:flex text-2xl space-x-[200px]">
+           <div class="text-center">
+            <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div><br><br>
+            <h4>Prayer Facility</h4>
+            <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+           </div>
+           <div class="text-center">
+            <div class="radial-progress text-green-600" style="--value:95;" role="progressbar">95%</div><br><br>
+            <h4>Experienced Coach</h4>
+            <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+           </div>
+           <div class="text-center">
+            <div class="radial-progress text-orange-400" style="--value:90;" role="progressbar">90%</div><br><br>
+            <h4>Senior Player</h4>
+            <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+           </div>
+           <div class="text-center">
+            <div class="radial-progress text-blue-600" style="--value:70;" role="progressbar">80%</div><br><br>
+            <h4>Training Ground</h4>
+            <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+           </div>
+        </div>
+    </div>
+    <div class="container lg:invisible absolute -mt-[815px] mb-0">
+        <div>
+            <div class="text-center">
+                <div class="radial-progress text-red-600" style="--value:95;" role="progressbar">95%</div><br><br>
+                <h4>Experienced Coach</h4>
+                <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+               </div>
+        </div>
+        <div>
+            <div class="text-center">
+                <div class="radial-progress text-green-600" style="--value:95;" role="progressbar">95%</div><br><br>
+                <h4>Experienced Coach</h4>
+                <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+               </div>
+        </div>
+        <div>
+            <div class="text-center">
+                <div class="radial-progress text-orange-400" style="--value:95;" role="progressbar">95%</div><br><br>
+                <h4>Experienced Coach</h4>
+                <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+               </div>
+        </div>
+        <div>
+            <div class="text-center">
+                <div class="radial-progress text-blue-600" style="--value:95;" role="progressbar">95%</div><br><br>
+                <h4>Experienced Coach</h4>
+                <p>uhfusidghfusiedg <br> hfusdhfdsshfusdsdfh</p>
+               </div>
+        </div>
+    </div>
+    <div class="-mt-3 lg:mt-24">
+        <h1 class="text-4xl text-center ">Professional Hockeys Club</h1><br>
+        <p class="text-xl text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+            placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    <div class=" container lg:mx-auto lg:flex gap-9 text  justify-between">
+        <div class="card   bg-base-100 shadow-xl image-full mt-6">
+            <figure><img src="img/2.png" alt="Shoes" class="lg:w-[760px]" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-secondary">Secondary</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl image-full mt-6">
+            <figure><img src="img/3.png" alt="Shoes" class="lg:w-[760px]" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-secondary">Secondary</button>
+              </div>
+            </div>
+          </div>
+      <div>   
+      </div>
+    </div>
+    <div class="container mx-auto mt-6">
+        <div class="card bg-base-100 shadow-xl lg:w-[1498px] image-full">
+            <figure><img src="img/4.png" alt="Shoes" class="lg:w-[1498px]" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-secondary">Secondary</button>
+              </div>
+            </div>
+          </div>
+    </div>
+     
 </body>
 
 </html>
